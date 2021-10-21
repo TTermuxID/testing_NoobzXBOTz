@@ -1095,7 +1095,7 @@ sendEphemeral: false,
 "title": `hallo ${pushname}` ,
 "body": `${jmn} - ${week} ${weton} - ${calender}`,
 "mediaType": "2",
-"mediaUrl": "https://youtu.be/JN_Gw2GzuqQ",
+"mediaUrl": "https://youtube.com/channel/UCapspuAKIg5erB3Upg3Uv4g",
 "thumbnail": pporigi,
 },mentionedJid:[stod]}, quoted : ftrol})
 }
@@ -1136,8 +1136,8 @@ case 'allmenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await denz.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = '🌹YUZZU KAMIYAKA 🌹'
-       ownerJid = "6281803609324@s.whatsapp.net"
+       nama = '🌹 NoobzX BOTz 🌹'
+       ownerJid = "6285876154630@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 menunya = `╭─❒ 「 Bot Info 」 ❒
@@ -1486,7 +1486,7 @@ mhan = await denz.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_©Yuzzu Kamiyaka_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_©NoobzXBOtz_*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -1809,14 +1809,14 @@ case 'maker': case 'maker2':
 case 'maker3': case 'maker4':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
   sticWait(from)
-if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/${command}?text=${c}&apikey=${YuzApi}`)
 ano = await getBuffer(anu.result.results)
 denz.sendMessage(from, ano, image, { quoted: mek, thumbnail: fs.readFileSync('./denz.jpg')})
 break
        case 'maker2d2': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker2?text=${makell}&apikey=${YuzApi}`)
@@ -1825,7 +1825,7 @@ break
 					break
 		case 'maker2d3': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3?text=${makell}&apikey=${YuzApi}`)
@@ -1834,7 +1834,7 @@ break
 					break
 		case 'maker2d4': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker4?text=${makell}&apikey=${YuzApi}`)
@@ -1843,7 +1843,7 @@ break
 					break
 			case 'maker3d': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = body.slice(8)
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3d?text=${makell}&apikey=${YuzApi}`)
@@ -1852,7 +1852,7 @@ break
 					break
 			case 'maker3d2': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3d/no2?text=${makell}&apikey=${YuzApi}`)
@@ -1861,7 +1861,7 @@ break
 					break
 			case 'maker3d3': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3d/no3?text=${makell}&apikey=${YuzApi}`)
@@ -1870,7 +1870,7 @@ break
 					break
 			case 'maker3d4': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker3d/no4?text=${makell}&apikey=${YuzApi}`)
@@ -1879,7 +1879,7 @@ break
 					break
 			case 'transformer': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/maker/special/transformer?text=${makell}&apikey=${YuzApi}`)
@@ -1911,7 +1911,7 @@ break
 					break
 			case 'coffeecup': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/senja?text=${makell}&theme=coffee-cup&apikey=${YuzApi}`)
@@ -1920,7 +1920,7 @@ break
 					break
 			case 'coffeecup2': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/senja?text=${makell}&theme=coffee-cup2&apikey=${YuzApi}`)
@@ -1929,7 +1929,7 @@ break
 					break
 			case 'neon': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/metallic?text=${makell}&theme=neon&apikey=${YuzApi}`)
@@ -1938,7 +1938,7 @@ break
 					break
              case 'glow': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/metallic?text=${makell}&theme=glow&apikey=${YuzApi}`)
@@ -1947,7 +1947,7 @@ break
 					break
 			case 'summer': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/alam?text=${makell}&theme=summer&apikey=${YuzApi}`)
@@ -1956,7 +1956,7 @@ break
 					break
 			case 'flower': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/alam?text=${makell}&theme=flower&apikey=${YuzApi}`)
@@ -1965,7 +1965,7 @@ break
 					break
 			case 'burn': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/random?text=${makell}&theme=text-burn&apikey=${YuzApi}`)
@@ -1974,7 +1974,7 @@ break
 					break
 			case 'quote': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/random?text=${makell}&theme=art-quote&apikey=${YuzApi}`)
@@ -1983,7 +1983,7 @@ break
 					break
 			case 'wooden': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/roses?text=${makell}&theme=wooden-boarch&apikey=${YuzApi}`)
@@ -1992,7 +1992,7 @@ break
 					break
 			case 'golden': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Yuzzu Kamiyaka`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} NoobzXBOtz`)
 					makell = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://api-yuzzu.herokuapp.com/api/textmaker/roses?text=${makell}&theme=golden&apikey=${YuzApi}`)
@@ -2009,7 +2009,7 @@ mhan = await denz.prepareMessage(from, buff, image, {thumbnail: buff})
 const buttonMessagessss = {
 imageMessage: mhan.message.imageMessage,
 contentText: `Ngedark Bos`,
-footerText: '*_©Yuzzu Kamiyaka_*',
+footerText: '*_©NoobzXBOtz_*',
 buttons: gbutsan,
 headerType: 4
 }
@@ -2749,7 +2749,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*_©Yuzzu Kamiyaka_*',
+    footerText: '*_©NoobzXBOtz_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2769,7 +2769,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setallmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setallmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygf = {
     contentText: `${anu}`,
-    footerText: '*_©Yuzzu Kamiyaka_*',
+    footerText: '*_©NoobzXBOtz_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2877,12 +2877,15 @@ break
 		anu =`╭─❒ SCRIPT
 │◦➛Base : Denis Putra
 │◦➛Recode : Yuzzu Kamiyaka
+│◦➛Recode : NoobzX
 │
 └──────[ GITHUB ]──────❒
   │◦➛Script Ory :
   │◦➛https://github.com/dcode-denpa/bitch-boot
   │◦➛Script Recode : 
   │◦➛https://github.com/YuzzuKamiyaka/bitch-bot
+  │◦➛Script Recode : 
+  │◦➛https://github.com/TTermuxID
   └──────────────────❒`
  buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'BACK➡️'}, type: 1},
@@ -2891,7 +2894,7 @@ break
 ]
 const btnskuy = {
     contentText: `${anu}`,
-    footerText: '*_©Yuzzu Kamiyaka_*',
+    footerText: '*_©NoobzXBOtz_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3120,7 +3123,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 const buttons = [{buttonId: 'autorespon on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autorespon off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const btnharam = {
     contentText: `${anu}`,
-    footerText: '*_©Yuzzu Kamiyaka_*',
+    footerText: '*_©NoobzXBOtz_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3140,7 +3143,7 @@ await denz.sendMessage(from, btnharam, MessageType.buttonsMessage, {quoted: ftro
 const buttons = [{buttonId: 'antideletee on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'antideletee off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
-    footerText: '*_©Yuzzu Kamiyaka_*',
+    footerText: '*_©NoobzXBOtz_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3714,7 +3717,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_©Yuzzu Kamiyaka_*',
+    footerText: '*_©NoobzXBOtz_*',
     buttons: punten,
     headerType: 1
 }
@@ -3739,7 +3742,7 @@ await denz.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 punten = [{buttonId: 'antibug off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antibug on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btasu = {
     contentText: `${anu}`,
-    footerText: '*_©Yuzzu Kamiyaka_*',
+    footerText: '*_©NoobzXBOtz_*',
     buttons: punten,
     headerType: 1
 }
@@ -5240,7 +5243,7 @@ break
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_©Yuzzu Kamiyaka_*',
+    footerText: '*_©NoobzXBOtz_*',
     buttons: punten,
     headerType: 1
 }
