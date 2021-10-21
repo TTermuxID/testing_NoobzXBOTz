@@ -1,0 +1,2 @@
+# testing_NoobzXBOTz
+kosong
