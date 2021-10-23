@@ -1137,7 +1137,7 @@ case 'allmenu':
 stod = `${sender}`
        stst = await denz.getStatus(`${sender.split('@')[0]}@c.us`)
        nama = '🌹 NoobzX BOTz 🌹'
-       ownerJid = "6285876154630@s.whatsapp.net"
+       ownerJid = "6285876154630@s.whatsapp.net", "14129307812@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 menunya = `╭─❒ 「 Bot Info 」 ❒
